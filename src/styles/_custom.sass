@@ -2,13 +2,13 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 30%
+    right: 80%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 71%
+    right: 15%
 
 
 @keyframes float1
@@ -23,4 +23,62 @@ figcaption
 
 .BG03
   background-color: #B5CCAD
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/fondo-paginas.png") !important
+
+// versión escritorio/movil
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+
+///////////// Organizar las litas --------------------------------------------------
+
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li, .lista-ul li
+  display: flex
+
+.list-color li  
+  display: block
+
+.titulo-2, .titulo-1
+  display: inline-flex
+  align-items: center
+  justify-content: flex-start
+
+.titulo-1
+  background-color: #FE9AB8
+  color: #12263F
+  padding: 4px 10px
+
+.titulo-2
+  background-color: #FFD6E3
+  color: #000
+  padding: 8px 16px
+  border-radius: 16px
+  font-weight: 700
+  font-size: 1rem
+  line-height: 1.4
+
+.titulo-2 img
+  width: 40px
+  height: 40px
+  margin-right: 12px
+
+.tarjeta--BG04
+  background-image: url("../assets/curso/BG04.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+
  

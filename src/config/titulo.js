@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'Clasificación de datos en modelos de inteligencia artificial'

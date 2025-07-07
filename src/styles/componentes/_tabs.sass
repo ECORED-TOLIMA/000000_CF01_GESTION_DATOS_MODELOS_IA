@@ -162,6 +162,7 @@
 
 .tabs-c
   border-bottom: 1px solid #AFAFAF
+
   &__header
     margin-bottom: 15px
   &__tab
@@ -172,6 +173,7 @@
     align-items: center
     justify-content: center
     position: relative
+    background-color: #FBFFD0
     &:after, &:before
       content: ''
       display: block
@@ -202,6 +204,8 @@
 
     &--active
       border-bottom: 4px solid !important
+      font-weight: 700
+      background-color: #fff
       &:before
         width: 0
         height: 0
@@ -215,6 +219,7 @@
         background-color: transparent
       .tabs-b__tab__title
         font-weight: $base-bold-font-weight
+
 
   &.color-primario
     .tabs-c__tab--active
@@ -242,3 +247,15 @@
 
 .fade-enter, .fade-leave-to
   opacity: 0
+
+// tabsC
+.tabs-c__content-item
+  background-color: #DCD8F2
+.tabs-c__tab
+  background-color: #FBFFD0
+.tabs-c__tab--active
+  background-color: #fff
+.tabs-c__header
+  margin-bottom: 0 !important
+.tabs-c.color-acento-botones .tabs-c__tab--active
+  font-weight: 700
