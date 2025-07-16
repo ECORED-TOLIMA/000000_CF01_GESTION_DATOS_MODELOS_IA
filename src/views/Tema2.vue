@@ -9,9 +9,9 @@
     
     .row.justify-content-center.align-items-center.mb-0(data-aos="flip-up")
       .col-12
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center
           .col-lg-8.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0.mb-3
-            p Si los datos constituyen el recurso bruto, las bases de datos actúan como las refinerías y los almacenes. Estos son sistemas organizados diseñados para contener, gestionar y proporcionar acceso eficiente a la información. La selección de la base de datos adecuada representa una de las decisiones arquitectónicas más críticas en el diseño de cualquier sistema de software, con implicaciones directas en el rendimiento, la escalabilidad, la fiabilidad y el costo. Es por eso que el manejo de bases de datos siempre ha sido un tema crucial en el ámbito de los sistemas de información. No obstante, en años recientes, la expansión de Internet y el rápido avance de la tecnología relacionada con Internet han convertido el conocimiento sobre tecnología de bases de datos en una de las carreras más emocionantes. (Kroenke, 2003)
+            p Si los datos constituyen el recurso bruto, las bases de datos actúan como las refinerías y los almacenes. Estos son sistemas organizados diseñados para contener, gestionar y proporcionar acceso eficiente a la información. La selección de la base de datos adecuada representa una de las decisiones arquitectónicas más críticas en el diseño de cualquier sistema de #[em software], con implicaciones directas en el rendimiento, la escalabilidad, la fiabilidad y el costo. Es por eso que el manejo de bases de datos siempre ha sido un tema crucial en el ámbito de los sistemas de información. No obstante, en años recientes, la expansión de Internet y el rápido avance de la tecnología relacionada con Internet han convertido el conocimiento sobre tecnología de bases de datos en una de las carreras más emocionantes. (Kroenke, 2003)
             .tarjeta.tarjeta--BGC02.p-3(style="background-color:#DCD8F2")
               .row.justify-content-center
                 .col-auto.order-lg-1.order-2.mb-lg-0.mb-3
@@ -31,9 +31,9 @@
 
     p.mb-4 Los sistemas de bases de datos están diseñados para manejar grandes volúmenes de información. La gestión de datos, abarca tanto la creación de estructuras para el almacenamiento de información, como la implementación de mecanismos para su manipulación. Estos sistemas deben garantizar la integridad de la información almacenada, frente a fallos del sistema o intentos de acceso no autorizado. (Gómez, et al., 2017)
 
-    .row.justify-content-center.align-items-center.mb-3(data-aos="flip-up")
+    .row.justify-content-center.align-items-center.mb-4(data-aos="flip-up")
       .col-12
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center
           .col-lg-8.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0.mb-3
             .tarjeta.tarjeta--BGC02.p-3.mb-4(style="background-color:#D6CDD9")
               .row.justify-content-center.align-items-center
@@ -49,7 +49,7 @@
             figure
               img(src='@/assets/curso/tema2/img-02.png', alt='Imagen decorativa')
   
-    .row.fondo2-t2.justify-content-center.align-items-center.py-3.px-lg-5.px-4.ordenar_tarjeta.mb-4(data-aos="zoom-in")
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--C02")
           .row(titulo="Nivel físico (interno)")
@@ -65,14 +65,15 @@
               p.mb-0 En el nivel más elevado de abstracción, se representa solo una parte de la base de datos completa. Esto es lo que el usuario final puede ver del sistema terminado, mostrando únicamente una sección de la base de datos al usuario autorizado para acceder a ella. El sistema tiene la capacidad de ofrecer múltiples vistas para la misma base de datos.
 
       .col-lg-3.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/tema2/img-03.png' alt="Imagen decorativa")
+        figure
+          img(src='@/assets/curso/tema2/img-03.png' alt="Imagen decorativa")
          
     p.mb-5 Como se había descrito previamente, un SGBD es un programa que se comunica con los usuarios, las aplicaciones y la propia base de datos para capturar, analizar y administrar los datos. Actúa como una capa de abstracción entre los datos físicos; es decir, la forma en que se almacenan en el disco, y la vista lógica que perciben los usuarios y las aplicaciones. El SGBD se encarga de llevar a cabo tareas esenciales como (Date, 2006):
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
       .col-lg-3.d-none.d-lg-block
         figure(data-aos="zoom-in")
-          img(src="@/assets/curso/tema2/img-04.svg", alt="alt").img400.m-auto
+          img(src="@/assets/curso/tema2/img-04.png", alt="alt").img400.m-auto
       .col-lg-9
         SlyderF.custom(columnas="col-lg-6 col-xl-4")
           .tarjeta.tarjeta--slyder.p-4
@@ -178,7 +179,7 @@
             figure
               img(src='@/assets/curso/ico.svg', alt='', style='width: 40px')
           .col
-            h3.mb-0 Clasificación por modelado de dato
+            h3.mb-0 Clasificación por modelado de datos
     
     p.mb-4 Dentro esta categoría existe dos tipos:
 
@@ -247,7 +248,7 @@
 
     p.mb-4 Esta clasificación tiene también dos tipos:
 
-    .row.fondo2-t2.justify-content-center.align-items-center.py-3.px-lg-5.px-4.ordenar_tarjeta.mb-4(data-aos="zoom-in")
+    .row.justify-content-center.mb-4
       .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--C02")
           .row(titulo="OLTP <em>(Online Transaction Processing)</em>")
@@ -259,7 +260,8 @@
               p.mb-0 Se caracteriza por su optimización para consultas complejas que examinan grandes volúmenes de datos históricos. Constituye la base de los sistemas de inteligencia empresarial y almacenes de datos. Este enfoque prioriza la velocidad de lectura y la capacidad de agregación. Las bases de datos columnares son particularmente adecuadas para OLAP.
 
       .col-lg-3.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/tema2/img-06.png' alt="Imagen decorativa")
+        figure
+          img(src='@/assets/curso/tema2/img-06.png' alt="Imagen decorativa")
 
     .row.mb-4
       .col-auto.d-none.d-lg-block
@@ -331,14 +333,14 @@
               .col
                 h3.mb-0 C. Rendimiento
 
-        p Medido por la latencia (tiempo de respuesta a una consulta) y el throughput (número de operaciones por segundo).
+        p Medido por la latencia (tiempo de respuesta a una consulta) y el #[em throughput] (número de operaciones por segundo).
 
     Separador
 
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.3 Modelos de bases de datos
 
-    .row.justify-content-center.align-items-center.mb-0(data-aos="flip-up")
+    .row.justify-content-center.mb-0(data-aos="flip-up")
       .col-lg-8.col-12.mb-md-0.order-lg-2.order-2
         p Debajo de la estructura de la base de datos se halla el modelo de datos, que es un conjunto de herramientas conceptuales utilizadas para describir los datos, sus relaciones, la semántica y las restricciones de consistencia (Silberschatz, et al., 2020). Dicha de forma breve, son las estructuras que facilitan la organización, almacenamiento y gestión de la información. A continuación, se describen los principales modelos utilizados en las bases de datos de acuerdo con Robinson, et al. (2015):
         LineaTiempoD.color-acento-botones.especial
@@ -346,7 +348,7 @@
           
           p(numero="2" titulo="Modelo de documentos") En lugar de utilizar filas y columnas, se guarda la información en documentos. Un documento es una estructura de datos independiente, generalmente en formato JSON o BSON (JSON binario), que puede ser tan complejo y anidado como se requiera. Toda la información de una entidad (como un usuario y todos sus pedidos) puede estar contenida en un solo documento. Esto elimina la necesidad de realizar JOINs complejos y costosos, lo que permite lecturas extremadamente rápidas. Es altamente flexible, no es necesario que todos los documentos de una colección tengan la misma estructura. Es ideal para catálogos de productos, perfiles de usuario y sistemas de gestión de contenido.
           
-          p(numero="3" titulo="Modelo clave-valor") Este es el modelo NoSQL más básico. Se compone de una extensa tabla hash en la que cada elemento está asociado a una clave única y un valor. Para la base de datos, el valor es un "blob" opaco; puede ser cualquier cosa, desde una cadena de texto hasta un objeto JSON o una imagen. Son extremadamente rápidos y permiten una escalabilidad horizontal. Se emplean para cachés de alta velocidad (como Redis), almacenamiento de sesiones de usuario y aplicaciones en tiempo real.
+          p(numero="3" titulo="Modelo clave-valor") Este es el modelo NoSQL más básico. Se compone de una extensa tabla #[em hash] en la que cada elemento está asociado a una clave única y un valor. Para la base de datos, el valor es un "blob" opaco; puede ser cualquier cosa, desde una cadena de texto hasta un objeto JSON o una imagen. Son extremadamente rápidos y permiten una escalabilidad horizontal. Se emplean para cachés de alta velocidad (como Redis), almacenamiento de sesiones de usuario y aplicaciones en tiempo real.
 
           p(numero="4" titulo="Modelo columnar <em>(Wide-Column)</em>") A diferencia de las bases de datos relacionales que almacenan datos por filas, las bases de datos de modelo columnar los almacenan por columnas. Cada fila puede contener un conjunto distinto de columnas. Están optimizadas para agregar valores de una columna específica, a través de millones de filas, lo que las hace ideales para cargas de trabajo de análisis (OLAP). Por ejemplo, para calcular el promedio de ventas de un producto, es necesario leer únicamente la columna "ventas", ignorando todas las demás, lo que resulta en una mayor eficiencia.
           
@@ -361,10 +363,10 @@
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.4 Técnicas de almacenamiento de datos
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
+    .row.justify-content-center.align-items-center.mb-3(data-aos="flip-up")
       .col-12
-        .row.justify-content-center
-          .col-lg-9.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
+        .row.align-items-center.mb-3
+          .col-xl
             .row.mb-3
               .col
                 p Los datos se almacenan físicamente en el disco y en la forma en que se hagan tiene un impacto masivo en el rendimiento. De acuerdo a Elmasri & Navathe (2016), suelen clasificarse en: 
@@ -377,11 +379,11 @@
                 .col-12.mb-0.mb-md-0
                   p.mb-0 Técnica empleada por las bases de datos analíticas (OLAP). Todos los valores de una misma columna se almacenan de manera contigua en el disco. Presenta dos ventajas significativas para el análisis de datos. En primer lugar, la eficiencia de lectura se ve mejorada. En consultas que solo requieren un subconjunto de columnas, únicamente se accede a los datos de dichas columnas, lo que reduce de manera considerable la entrada/salida de disco. En segundo lugar, se consigue una compresión más eficiente. Debido a que los datos dentro de una misma columna tienden a ser uniformes en cuanto a tipo y rango de valores, pueden comprimirse de manera más eficaz que los datos variados de una fila. Esto no solo reduce el espacio de almacenamiento necesario, sino que también agiliza las consultas, ya que hay menos datos que leer del disco.
                   
-          .col-lg-3.col-6.col-md-6.col-8.order-lg-2.order-1.mb-lg-0.mb-3
-            figure
-              img(src='@/assets/curso/tema2/img-08.png', alt='Imagen decorativa')
+          .col-xl-auto(data-aos="fade-left")
+            figure.d-none.d-xl-block
+              img(src='@/assets/curso/tema2/img-08.png', alt='Imagen decorativa').m-auto
 
-    .row.mb-4.ms-0.mt-4
+    .row.mb-4.ms-0.mt-3
       .col-auto.bg-c3(data-aos="fade-left")
         .row.align-items-center
           .col-auto.px-0

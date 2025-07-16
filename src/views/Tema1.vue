@@ -18,7 +18,7 @@
       .col-12
         .row.justify-content-center
           .col-lg-8.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0.mb-3
-            p Por otra parte, la inteligencia artificial (IA) y el aprendizaje automático han transformado significativamente la interacción con la tecnología y los datos. No obstante, el rendimiento y la eficacia de cualquier modelo de IA dependen de manera crítica de la calidad, estructura y gestión de los datos que lo sustentan. Un modelo sofisticado con datos mal gestionados generará resultados deficientes, un principio conocido como garbage in, garbage out o GIGO por sus siglas en inglés.
+            p Por otra parte, la inteligencia artificial (IA) y el aprendizaje automático han transformado significativamente la interacción con la tecnología y los datos. No obstante, el rendimiento y la eficacia de cualquier modelo de IA dependen de manera crítica de la calidad, estructura y gestión de los datos que lo sustentan. Un modelo sofisticado con datos mal gestionados generará resultados deficientes, un principio conocido como #[em garbage in, garbage out] o GIGO por sus siglas en inglés.
             p El principio GIGO es un concepto esencial en la gestión de datos que indica una conexión directa entre la calidad de los datos introducidos y la calidad de los resultados obtenidos. En términos sencillos, esto significa que, si se ingresan datos de baja calidad o incorrectos en un sistema, inevitablemente se obtendrán resultados igualmente deficientes o erróneos. Surge en los inicios de la computación, cuando los programadores advirtieron que los computadores, por muy avanzadas que fueran, solo podían procesar la información que recibían. Si dicha información era incorrecta, incompleta o inconsistente, los resultados reflejarían esas deficiencias, independientemente de la calidad del procesamiento o de los algoritmos empleados.
 
           .col-lg-4.col-6.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-3
@@ -73,7 +73,7 @@
             figure
               img(src="@/assets/curso/tema1/icono-04.svg", alt="alt").img90.m-auto
           h4.text-center Facilidad de consulta
-          p.mb-0 Su naturaleza organizada los hace ideales para ser consultados, procesados y analizados, mediante lenguajes de consulta estructurados, siendo SQL #[em (Structured Query Language) el estándar de facto.]
+          p.mb-0 Su naturaleza organizada los hace ideales para ser consultados, procesados y analizados, mediante lenguajes de consulta estructurados, siendo SQL #[em (Structured Query Language)] el estándar de facto.
 
     p.mb-5 Utilizar datos estructurados tiene ventajas como:
 
@@ -111,7 +111,7 @@
         figure
           img(src='@/assets/curso/icono-01.svg', alt='Imagen decorativa')
       .col-10.mb-3
-        p.mb-0 Algunos ejemplos de este tipo de datos son las bases de datos relacionales, las hojas de cálculo, archivos CSV, sistemas ERP, datos de transacciones financieras. Sin embargo, estos datos presentan algunas limitaciones como: e
+        p.mb-0 Algunos ejemplos de este tipo de datos son las bases de datos relacionales, las hojas de cálculo, archivos CSV, sistemas ERP, datos de transacciones financieras. Sin embargo, estos datos presentan algunas limitaciones como:
 
     .row.justify-content-center.mb-5
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
@@ -143,7 +143,7 @@
               figure
                 img(src='@/assets/curso/tema1/icono-12.svg', alt='', style='width: 60px').m-auto
             .col-md
-              p.mb-0 #[b Ejemplo:] Tabla de Empleados ID | Nombre | Edad | Departamento | Salario 1 | Ana López | 28 | Marketing | 45000 2 | Juan Pérez| 35 | IT | 55000 3 | María García| 42 | Ventas | 48000
+              p.mb-0 #[b Ejemplo:] Tabla de Empleados ID | Nombre | Edad | Departamento | Salario 1 | Ana López | 28 | #[em Marketing] | 45000 2 | Juan Pérez| 35 | IT | 55000 3 | María García| 42 | Ventas | 48000
 
     Separador
 
@@ -173,7 +173,7 @@
           figure.mb-4
             img(src='@/assets/curso/tema1/icono-15.svg', style="width: 50px" ,alt='')
           h4 Intercambiabilidad
-          p Facilitan el intercambio de datos entre diversos sistemas y plataformas.?
+          p Facilitan el intercambio de datos entre diversos sistemas y plataformas.
           
       .col-8.col-lg.bg-c2.m-2(data-aos="fade-left")
         .p-4
@@ -184,26 +184,24 @@
 
     p.mb-5 Los datos semiestructurados suelen ser aplicados en tareas y actividades como:
 
-    .row.justify-content-center.mb-5(data-aos="flip-up")
-      .col-lg-8.col-12.mb-md-0
+    .row.align-items-center.mb-5
+      .col-xl
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--C02")
           .row(titulo="Desarrollo web")
             .col-12.mb-0.mb-md-0
-              p En el ámbito del desarrollo #[em web,] JSON es esencial para las APIs REST y la comunicación entre servicios.
+              p.mb-0 En el ámbito del desarrollo #[em web,] JSON es esencial para las APIs REST y la comunicación entre servicios.
 
           .row(titulo="Configuración de sistemas")
             .col-12.mb-0.mb-md-0
-              p.mb-0 Configuración de sistemas
-              p En cuanto a la configuración de sistemas, XML se utiliza para gestionar archivos de configuración complejos. Para el intercambio de datos, se emplean formatos estándar que facilitan la comunicación entre aplicaciones.
+              p.mb-0 En cuanto a la configuración de sistemas, XML se utiliza para gestionar archivos de configuración complejos. Para el intercambio de datos, se emplean formatos estándar que facilitan la comunicación entre aplicaciones.
     
           .row(titulo="Almacenamiento de <em>logs</em>")
             .col-12.mb-0.mb-md-0
-              p.mb-0 Almacenamiento de #[em logs]
-              p En el almacenamiento de #[em logs,] se requiere una estructura que permita un análisis adecuado, pero que también ofrezca flexibilidad para diferentes tipos de eventos.
+              p.mb-0 En el almacenamiento de #[em logs,] se requiere una estructura que permita un análisis adecuado, pero que también ofrezca flexibilidad para diferentes tipos de eventos.
 
-      .col-lg-4.col-6.col-md-6.col-8.order-lg-2.order-1.mb-lg-0.mb-3.d-none.d-lg-block
-        figure
-          img(src='@/assets/curso/tema1/img-04.png', alt='Imagen decorativa')
+      .col-xl-auto(data-aos="fade-left")
+        figure.d-none.d-xl-block
+          img(src='@/assets/curso/tema1/img-04.png', alt='Imagen decorativa').m-auto
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
       .col-10
@@ -226,7 +224,7 @@
                   p.mb-0 Correos electrónicos.
                 li.mb-0
                   i.fas.fa-robot(style="color:#523DBF")
-                  p.mb-0 Logs de servidores.
+                  p.mb-0 #[em Logs] de servidores.
                 li.mb-0
                   i.fas.fa-robot(style="color:#523DBF")
                   p.mb-0 Documentos con metadatos.
@@ -240,23 +238,30 @@
     TabsC.color-acento-botones.mb-5(data-aos="flip-up")
       .py-3.py-md-4(titulo="JSON(JavaScript Object Notation)")
         .row.justify-content-center.p-4
-          .col-lg-6.col-8.order-lg-1.order-1.mb-lg-0.mb-4
-            figure
-              img(src='@/assets/curso/tema1/img-06.svg', alt='Imagen decorativa')
+          .col-lg-6.order-lg-1.order-2
+              p El formato predominante para la comunicación entre servicios web (APIs) y para bases de datos de documentos es el JSON. Un objeto JSON que describe a un usuario podría incluir campos básicos como "nombre" y "email". Sin embargo, otro usuario dentro de la misma colección podría contener campos adicionales, como "perfiles_sociales" (que es un objeto anidado), sin necesidad de modificar ninguna estructura predefinida.
+              p Ejemplo:
 
-          .col-lg-6.order-lg-2.order-2
-            p El formato predominante para la comunicación entre servicios web (APIs) y para bases de datos de documentos es el JSON. Un objeto JSON que describe a un usuario podría incluir campos básicos como "nombre" y "email". Sin embargo, otro usuario dentro de la misma colección podría contener campos adicionales, como "perfiles_sociales" (que es un objeto anidado), sin necesidad de modificar ninguna estructura predefinida.
-            p Ejemplo:
+          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+            .tarjeta.fondo_code.p-4 
+              p.mt-0 { 
+              p.mb-0 "empleado": { "id": 1,
+              p.mb-0 "nombre": "Ana López",
+              p.mb-0 "edad": 28,
+              p.mb-0 "departamento": "Marketing",
+              p.mb-0 "habilidades": ["SEO", "Redes Sociales", "Analytics"] } 
+              p.mb-5 }
+
 
       .py-3.py-md-4(titulo="XML (eXtensible Markup Language)")
         .row.justify-content-center.p-4
-          .col-lg-6.col-8.order-lg-1.order-1.mb-lg-0.mb-4
-            figure
-              img(src='@/assets/curso/tema1/img-07.svg', alt='Imagen decorativa')
-
-          .col-lg-6.order-lg-2.order-2
+          .col-lg-6.order-lg-1.order-2
             p Durante un período prolongado, fue considerado el estándar para el intercambio de datos. Emplea etiquetas personalizadas para definir tanto la estructura como los elementos de los datos. Su uso es ampliamente reconocido en archivos de configuración, documentos de ofimática (como .docx) y en la industria editorial.
             p Ejemplo:
+
+          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+            figure
+              img(src='@/assets/curso/tema1/img-07.svg', alt='Imagen decorativa')
 
     .row.justify-content-center.mb-0
       .col-lg-10(data-aos="fade-right")
@@ -266,7 +271,7 @@
               figure
                 img(src='@/assets/curso/tema1/icono-12.svg', alt='', style='width: 60px').m-auto
             .col-md
-              p.mb-0 #[b Los datos semiestructurados son el lenguaje de la web moderna y de las aplicaciones que necesitan interactuar entre sí de forma flexible y escalable.]
+              p.mb-0 #[b Los datos semiestructurados son el lenguaje de la #[em web] moderna y de las aplicaciones que necesitan interactuar entre sí de forma flexible y escalable.]
 
     Separador
 
@@ -309,7 +314,7 @@
                   p.mb-0 #[b Minería de datos]
                   p Se emplean técnicas de aprendizaje automático para descubrir patrones ocultos. 
 
-              .row.justify-content-center.align-items-center.mb-2
+              .row.justify-content-center.align-items-center.mb-0
                 .col-auto.mb-3
                   figure
                     img(src='@/assets/curso/tema1/img-13.svg', alt='Imagen decorativa')
@@ -320,6 +325,8 @@
           .col-lg-4.col-6.col-md-6.col-8.order-lg-2.order-1.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/tema1/img-09.png', alt='Imagen decorativa')
+
+    Separador
 
     p.mb-5 El manejo de los datos no estructurados, aunque implica las complejidades señaladas previamente, tiene un valor empresarial:
 
@@ -356,14 +363,14 @@
                 img(src='@/assets/curso/tema1/icono-12.svg', alt='', style='width: 60px').m-auto
             .col-md
               p.mb-0 #[b Ejemplo aplicado:]
-              p.mb-0 #[b Reseña de producto "Compré este producto la semana pasada y estoy muy satisfecho. La calidad es excelente y el envío fue rápido. Lo recomiendo totalmente. El precio es un poco alto, pero vale la pena por la durabilidad."]
+              p.mb-0 #[b Reseña de producto "Compré este producto la semana pasada y estoy muy satisfecho. La calidad es excelente y el envío fue rápido. Lo recomiendo totalmente. El precio es un poco alto, pero vale la pena por la durabilidad".] <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
 
     .tarjeta.tarjeta--BG02.p-md-5.p-4.mb-5(data-aos="flip-up")
       SlyderA(tipo="b")
         .row.justify-content-center.p-4
           .col-lg-5.order-lg-1.order-2
             h4 Archivos de texto
-            p.mb-0 El cuerpo de correos electrónicos, documentos de Word, archivos PDF, publicaciones en redes sociales, comentarios en blogs, respuestas de encuestas abiertas.
+            p.mb-0 El cuerpo de correos electrónicos, documentos de Word, archivos PDF, publicaciones en redes sociales, comentarios en #[em blogs], respuestas de encuestas abiertas.
           .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema1/img-14.png', alt='Imagen decorativa')
@@ -371,15 +378,15 @@
         .row.justify-content-center.p-4
           .col-lg-5.order-lg-1.order-2
             h4 Contenido multimedia
-            p.mb-3 Imágenes (JPEG, PNG), archivos de audio (MP3, WAV) y archivos de video (MP4, AVI). Cada uno de estos archivos es un blob binario de datos desde la perspectiva de una base de datos tradicional.
+            p.mb-3 Imágenes (JPEG, PNG), archivos de audio (MP3, WAV) y archivos de video (MP4, AVI). Cada uno de estos archivos es un #[em blob] binario de datos desde la perspectiva de una base de datos tradicional.
           .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema1/img-15.png', alt='Imagen decorativa')
         
         .row.justify-content-center.p-4
           .col-lg-5.order-lg-1.order-2
-            h4 Datos de sensores y logs
-            p.mb-3 Los registros (logs) generados por servidores, aplicaciones y redes, así como los datos crudos provenientes de sensores del Internet de las Cosas (IoT), a menudo se presentan como un flujo continuo de texto sin formato.
+            h4 Datos de sensores y #[em logs]
+            p.mb-3 Los registros #[em (logs)] generados por servidores, aplicaciones y redes, así como los datos crudos provenientes de sensores del Internet de las Cosas (IoT), a menudo se presentan como un flujo continuo de texto sin formato.
           .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema1/img-16.png', alt='Imagen decorativa')
@@ -439,23 +446,21 @@
                 td APIs #[em web,] configuraciones.
                 td Análisis de sentimientos, reconocimiento.
 
-    .row.justify-content-center.align-items-center.mb-0(data-aos="flip-up")
-      .col-12
-        .row.justify-content-center.align-items-center
-          .col-lg-7.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0.mb-3
-            p Se puede concluir que, la gestión moderna de datos requiere un enfoque híbrido que combine los tres tipos de datos. Las arquitecturas de datos actuales, como los data lakes, permiten almacenar y procesar todos estos tipos de datos de manera integrada.
-            .tarjeta.tarjeta--BGC02.p-3.mb-3(style="background-color:#DCD8F2")
-              .row.justify-content-center.align-items-center
-                .col-lg-2.d-none.d-lg-block.order-lg-1.order-2.mb-lg-0
-                  figure
-                    img(src='@/assets/curso/tema1/icono-20.svg', alt='Imagen decorativa')
-                .col-lg-10.col-12.mb-0.order-lg-2.order-2.mb-lg-0
-                  p.mb-0 Las tecnologías de inteligencia artificial y el aprendizaje automático están revolucionando la capacidad de obtener valor de datos no estructurados, mientras que los sistemas NoSQL han mejorado considerablemente el manejo de datos semiestructurados.
-            p La elección del tipo de dato y las tecnologías relacionadas, debe estar basada en los objetivos específicos del negocio, los recursos disponibles, así como en los requisitos de rendimiento y escalabilidad de cada organización.
+    .row
+      .col-lg-4.d-none.d-lg-block(data-aos="fade-left")
+        figure
+          img(src='@/assets/curso/tema1/img-18.png')
 
-          .col-lg-5.col-6.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-3
-            figure
-              img(src='@/assets/curso/tema1/img-18.png', alt='Imagen decorativa')
+      .col-lg-8(data-aos="fade-right")
+        p Se puede concluir que, la gestión moderna de datos requiere un enfoque híbrido que combine los tres tipos de datos. Las arquitecturas de datos actuales, como los data lakes, permiten almacenar y procesar todos estos tipos de datos de manera integrada.
+        .p-3.mt-4(style="background-color:#DCD8F2;")
+          .row
+            .col-auto.d-none.d-md-block(style="place-self:center;")
+              figure
+                img(src='@/assets/curso/tema1/icono-20.svg')
+            .col(style="place-self:center;")
+              p.mb-0 Las tecnologías de inteligencia artificial y el aprendizaje automático están revolucionando la capacidad de obtener valor de datos no estructurados, mientras que los sistemas NoSQL han mejorado considerablemente el manejo de datos semiestructurados.
+        p.mt-4.mb-0 La elección del tipo de dato y las tecnologías relacionadas, debe estar basada en los objetivos específicos del negocio, los recursos disponibles, así como en los requisitos de rendimiento y escalabilidad de cada organización.
 
 
 

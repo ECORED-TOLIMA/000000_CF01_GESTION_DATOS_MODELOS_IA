@@ -165,7 +165,7 @@ export default {
         {
           id: 7,
           texto:
-            'El almacenamiento de datos en columnas (Columnar Storage) es ideal para cargas de trabajo analíticas (OLAP) donde se consultan grandes volúmenes de datos sobre pocas columnas.',
+            'El almacenamiento de datos en columnas <em>(Columnar Storage)</em> es ideal para cargas de trabajo analíticas (OLAP) donde se consultan grandes volúmenes de datos sobre pocas columnas.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [

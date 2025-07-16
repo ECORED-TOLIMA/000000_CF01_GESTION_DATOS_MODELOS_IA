@@ -1,7 +1,6 @@
 export default {
   global: {
-    componenteFormativo:
-      'Clasificación de datos en modelos de inteligencia artificial',
+    Name: 'Clasificación de datos en modelos de inteligencia artificial',
     descripcionCurso:
       'Este componente tiene como objetivo que los aprendices desarrollen habilidades técnicas para gestionar y transformar datos en conocimiento aplicable, preparándolos para un entorno de inteligencia artificial que se encuentra cada vez más presente en diversas áreas y entornos digitales.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
@@ -9,11 +8,11 @@ export default {
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-01.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-02.svg'),
       },
     ],
   },
@@ -304,9 +303,9 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre_Experto',
-          cargo: 'Cargo_Experto',
-          centro: 'Regional_Experto',
+          nombre: 'Deivis Eduard Ramírez Martínez',
+          cargo: 'Experto temático',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -325,12 +324,12 @@ export default {
         },
         {
           nombre: 'Diego Fernando Velasco Güiza',
-          cargo: 'Desarrollador Fullstack',
+          cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Gilberto Junior Rodríguez Rodríguez',
-          cargo: 'Animador y productor audiovisual',
+          nombre: 'Francisco José Vásquez Suárez',
+          cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
@@ -346,11 +345,6 @@ export default {
         {
           nombre: 'Norma Constanza Morales Cruz',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
-          nombre: 'Jorge Bustos Gómez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {

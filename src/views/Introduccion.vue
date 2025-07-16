@@ -40,7 +40,7 @@
                   figure
                     img(src='@/assets/curso/icono-01.svg', alt='Imagen decorativa')
                 .col.mb-3
-                  p.mb-0 Es por esto que la gestión de datos en modelos de con este tipo de tecnología, abarca el ciclo de vida completo de los datos, que incluye la recolección, limpieza, almacenamiento, gobernanza y preparación, con el objetivo de entrenar, validar y desplegar modelos de IA de manera eficaz. La aplicación de técnicas de inteligencia artificial y aprendizaje automático para optimizar estos procesos se denomina gestión de datos de inteligencia artificial. 
+                  p.mb-0 Es por esto que la gestión de datos en modelos con este tipo de tecnología, abarca el ciclo de vida completo de los datos, que incluye la recolección, limpieza, almacenamiento, gobernanza y preparación, con el objetivo de entrenar, validar y desplegar modelos de IA de manera eficaz. La aplicación de técnicas de inteligencia artificial y aprendizaje automático para optimizar estos procesos se denomina gestión de datos de inteligencia artificial. 
               
             .col-lg-3.col-6.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-3
               figure

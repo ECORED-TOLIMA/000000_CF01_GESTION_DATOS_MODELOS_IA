@@ -8,7 +8,7 @@
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 71%
-    right: 15%
+    right: 8%
 
 
 @keyframes float1
@@ -17,6 +17,15 @@
 
   100%
     transform: translateY(0px)
+
+.banner-principal .tarjeta
+  background-position: left 50% !important
+
+.banner-principal__row .banner-principal__img
+  width: 435px !important  
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: black !important   
   
 figcaption
   font-weight: normal
@@ -80,5 +89,18 @@ figcaption
   @media (max-width: $bp-max-sm)
     margin-inline: -1.5rem !important
 
+.p-relative, .p-relative *
+  position: relative
+
+.fondo_code
+  background-image: url("../assets/curso/tema1/code.svg")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  border-radius: 16px
+  color: white
+  padding: 10px
+  p
+    color: white !important
 
  

@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema3/img-01.png')})`}" data-aos="fade-right"
       )
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
-        p.mb-0 El proceso de crear una representación visual o un esquema que define las estructuras de datos, sus interrelaciones, sus atributos y las normas que los rigen constituyen una de las fases más críticas en el diseño de un sistema de información. Un modelo de datos bien elaborado asegura la consistencia, la calidad y la usabilidad de la información a largo plazo. Este proceso actúa como un puente entre los requisitos del negocio y la implementación técnica en una base de datos.est
+        p.mb-0 El proceso de crear una representación visual o un esquema que define las estructuras de datos, sus interrelaciones, sus atributos y las normas que los rigen constituyen una de las fases más críticas en el diseño de un sistema de información. Un modelo de datos bien elaborado asegura la consistencia, la calidad y la usabilidad de la información a largo plazo. Este proceso actúa como un puente entre los requisitos del negocio y la implementación técnica en una base de datos.
 
     Separador
 
@@ -21,7 +21,7 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
       .col-12
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center
           .col-lg-9.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0.mb-3
             p El modelado de datos constituye un proceso de abstracción que se inicia con la recopilación de los requisitos de información del mundo real, los cuales se traducen progresivamente en una estructura formal comprensible para una base de datos. Un modelo de datos bien diseñado debe garantizar la integridad de la información. 
             .tarjeta.tarjeta--BGC02.p-3.mb-3(style="background-color:#DCD8F2")
@@ -61,23 +61,24 @@
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.2 Principios 
 
-    p.mb-4 Un modelado de datos eficaz se basa en varios principios fundamentales: 
+    p.mb-5 Un modelado de datos eficaz se basa en varios principios fundamentales: 
 
-    .row.fondo2-t2.justify-content-center.align-items-center.py-3.px-lg-5.px-4.ordenar_tarjeta.mb-4(data-aos="zoom-in")
-      .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
+    .row.justify-content-center.mb-5
+      .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
         LineaTiempoD.color-acento-botones.especial
-          p(numero="1" titulo="Claridad y simplicidad") El modelo debe ser comprensible para todas las partes interesadas. Es esencial evitar nombres de tablas y columnas que resulten crípticos. La simplicidad no implica una falta de detalle, sino la eliminación de complejidades innecesarias.
+          p.mb-0(numero="1" titulo="Claridad y simplicidad") El modelo debe ser comprensible para todas las partes interesadas. Es esencial evitar nombres de tablas y columnas que resulten crípticos. La simplicidad no implica una falta de detalle, sino la eliminación de complejidades innecesarias.
           
-          p(numero="2" titulo="Completitud") El modelo debe capturar todos los requisitos de datos pertinentes al problema que se está abordando, sin omitir entidades o atributos significativos.
+          p.mb-0(numero="2" titulo="Completitud") El modelo debe capturar todos los requisitos de datos pertinentes al problema que se está abordando, sin omitir entidades o atributos significativos.
 
-          p(numero="3" titulo="No redundancia (normalización)") La información no debe almacenarse repetidamente sin necesidad. En ocasiones, se introduce deliberadamente redundancia controlada por razones de rendimiento (desnormalización), pero esta debe ser una decisión consciente y justificada. 
+          p.mb-0(numero="3" titulo="No redundancia (normalización)") La información no debe almacenarse repetidamente sin necesidad. En ocasiones, se introduce deliberadamente redundancia controlada por razones de rendimiento (desnormalización), pero esta debe ser una decisión consciente y justificada. 
 
-          p(numero="4" titulo="Flexibilidad y extensibilidad") El modelo debe poseer la capacidad de evolucionar. Dado que los requisitos empresariales están sujetos a cambios, el modelo de datos debe ser capaz de adaptarse a nuevos tipos de información o a nuevas relaciones sin necesidad de una reestructuración masiva.
+          p.mb-0(numero="4" titulo="Flexibilidad y extensibilidad") El modelo debe poseer la capacidad de evolucionar. Dado que los requisitos empresariales están sujetos a cambios, el modelo de datos debe ser capaz de adaptarse a nuevos tipos de información o a nuevas relaciones sin necesidad de una reestructuración masiva.
 
-          p(numero="5" titulo="Integridad") El modelo debe establecer las reglas que aseguren la corrección y consistencia de los datos. Esto incluye la definición de claves primarias, claves externas, restricciones de unicidad y reglas de validación.
+          p.mb-0(numero="5" titulo="Integridad") El modelo debe establecer las reglas que aseguren la corrección y consistencia de los datos. Esto incluye la definición de claves primarias, claves externas, restricciones de unicidad y reglas de validación.
 
       .col-lg-3.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/tema3/img-03.png' alt="Imagen decorativa")
+        figure
+          img(src='@/assets/curso/tema3/img-03.png' alt="Imagen decorativa")
 
     p.mb-5 Los bloques de construcción básicos de un modelo de datos (especialmente en el modelado relacional) son:
 
@@ -110,7 +111,7 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
       .col-12
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center
           .col-lg-9.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0.mb-3
             p La normalización constituye un proceso sistemático destinado a organizar las columnas y tablas en una base de datos relacional, con el fin de minimizar la redundancia de datos. Su objetivo es descomponer tablas grandes y complejas en tablas más pequeñas y bien estructuradas, además de definir las relaciones entre ellas. Este proceso contribuye a eliminar las anomalías de datos que pueden surgir durante las operaciones de inserción, actualización o eliminación.
             p Hay diversas "formas normales" (FN o NF), cada una con un conjunto de reglas más riguroso que la anterior. En la práctica, la mayoría de las bases de datos OLTP bien estructuradas logran alcanzar la Tercera Forma Normal (3FN). (Codd, 1970).
