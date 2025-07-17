@@ -243,15 +243,18 @@
               p Ejemplo:
 
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            .tarjeta.fondo_code.p-4 
-              p.mt-0 { 
-              p.mb-0 "empleado": { "id": 1,
-              p.mb-0 "nombre": "Ana López",
-              p.mb-0 "edad": 28,
-              p.mb-0 "departamento": "Marketing",
-              p.mb-0 "habilidades": ["SEO", "Redes Sociales", "Analytics"] } 
-              p.mb-5 }
-
+            .tarjeta.fondo_code
+              br
+              br
+              .row.justify-content-center.align-items-center
+                .col-12.p-5 
+                  p.mb-0 &lbrace;
+                  p.mb-0 "empleado": &lbrace; "id": 1,
+                  p.mb-0 "nombre": "Ana López",
+                  p.mb-0 "edad": 28,
+                  p.mb-0 "departamento": "Marketing",
+                  p.mb-0 "habilidades": ["SEO", "Redes Sociales", "Analytics"] &lbrace; 
+                  p.mb-5 &rbrace; 
 
       .py-3.py-md-4(titulo="XML (eXtensible Markup Language)")
         .row.justify-content-center.p-4
@@ -260,9 +263,26 @@
             p Ejemplo:
 
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            figure
-              img(src='@/assets/curso/tema1/img-07.svg', alt='Imagen decorativa')
-
+            .tarjeta.fondo_code
+              br
+              br
+              br
+              .row.justify-content-center.align-items-center
+                .col-12.p-5 
+                  p.mb-0 &lt;usuario id="usr123"&gt;
+                  p.mb-0 &lt;nombre&gt;Ana Pérez&lt;/nombre&gt;
+                  p.mb-0 &lt;email&gt;ana.perez@example.com&lt;/email&gt;
+                  p.mb-0 &lt;activa&gt;true&lt;/activa&gt;
+                  p.mb-0 &lt;pedidos&gt;
+                  p.mb-0 &lt;pedido id="ped001"&gt;
+                  p.mb-0 &lt;total&gt;49.99&lt;/total&gt;
+                  p.mb-0 &lt;/pedido&gt;
+                  p.mb-0 &lt;pedido id="ped002"&gt;
+                  p.mb-0 &lt;total&gt;120.50&lt;/total&gt;
+                  p.mb-0 &lt;/pedido&gt;
+                  p.mb-0 &lt;/pedidos&gt;
+                  p.mb-0 &lt;/usuario&gt;
+                  
     .row.justify-content-center.mb-0
       .col-lg-10(data-aos="fade-right")
         .p-4.bg-c5
