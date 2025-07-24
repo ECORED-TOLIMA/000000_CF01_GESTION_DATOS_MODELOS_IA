@@ -472,7 +472,7 @@
           img(src='@/assets/curso/tema1/img-18.png')
 
       .col-lg-8(data-aos="fade-right")
-        p Se puede concluir que, la gestión moderna de datos requiere un enfoque híbrido que combine los tres tipos de datos. Las arquitecturas de datos actuales, como los data lakes, permiten almacenar y procesar todos estos tipos de datos de manera integrada.
+        p Se puede concluir que, la gestión moderna de datos requiere un enfoque híbrido que combine los tres tipos de datos. Las arquitecturas de datos actuales, como los #[em data lakes], permiten almacenar y procesar todos estos tipos de datos de manera integrada.
         .p-3.mt-4(style="background-color:#DCD8F2;")
           .row
             .col-auto.d-none.d-md-block(style="place-self:center;")
