@@ -73,7 +73,7 @@ export default {
         {
           id: 3,
           texto:
-            'Los archivos JSON, por su flexibilidad y uso de pares clave-valor, son un tipo de dato estructurado',
+            'Los archivos JSON, por su flexibilidad y uso de pares clave-valor, son un tipo de dato estructurado.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -441,7 +441,7 @@ export default {
         {
           id: 19,
           texto:
-            'Los SGBD de tipo documento su estructura se presenta en tablas con filas y columnas',
+            'Los SGBD de tipo documento su estructura se presenta en tablas con filas y columnas.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -462,7 +462,7 @@ export default {
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
-          id: 19,
+          id: 20,
           texto:
             'Los datos estructurados se almacenan comúnmente en bases de datos relacionales como tablas.',
           imagen: require('@/assets/actividad/imagen5.png'),

@@ -158,7 +158,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA_01_XXXXXXXX_DU.pdf',
+        download: 'downloads/CFA_01_21710120_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -305,6 +305,11 @@ export default {
         {
           nombre: 'Deivis Eduard Ramírez Martínez',
           cargo: 'Experto temático',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Evaluador instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
