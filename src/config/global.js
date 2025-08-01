@@ -263,7 +263,7 @@ export default {
     },
     {
       referencia:
-        'Özsu, M. T. & Valduriez, P. (2011). Principles of Distributed Database Systems (3rd ed.). Springer.',
+        'Ozsu, M. T. & Valduriez, P. (2011). Principles of Distributed Database Systems (3rd ed.). Springer.',
     },
     {
       referencia:

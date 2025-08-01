@@ -189,7 +189,7 @@
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--C02")
           .row(titulo="Desarrollo web")
             .col-12.mb-0.mb-md-0
-              p.mb-0 En el ámbito del desarrollo #[em web,] JSON es esencial para las APIs REST y la comunicación entre servicios.
+              p.mb-0 En el ámbito del desarrollo web, JSON es esencial para las APIs REST y la comunicación entre servicios.
 
           .row(titulo="Configuración de sistemas")
             .col-12.mb-0.mb-md-0
@@ -291,7 +291,7 @@
               figure
                 img(src='@/assets/curso/tema1/icono-12.svg', alt='', style='width: 60px').m-auto
             .col-md
-              p.mb-0 #[b Los datos semiestructurados son el lenguaje de la #[em web] moderna y de las aplicaciones que necesitan interactuar entre sí de forma flexible y escalable.]
+              p.mb-0 #[b Los datos semiestructurados son el lenguaje de la web moderna y de las aplicaciones que necesitan interactuar entre sí de forma flexible y escalable.]
 
     Separador
 
@@ -463,7 +463,7 @@
               tr(data-aos="fade-right")
                 td #[b Casos de uso]
                 td Transacciones, reportes financieros.
-                td APIs #[em web,] configuraciones.
+                td APIs web, configuraciones.
                 td Análisis de sentimientos, reconocimiento.
 
     .row
